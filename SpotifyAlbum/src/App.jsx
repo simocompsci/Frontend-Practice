@@ -1,5 +1,18 @@
+import React from 'react';
+import AlbumPage from './AlbumPage';
+const App = () => {
+  return (
+    <div>
+      <AlbumPage />
+    </div>
+  );
+}
+
+export default App;
+
+
 // App.jsx
-import React, { useEffect, useState, useRef } from 'react';
+/*import React, { useEffect, useState, useRef } from 'react';
 import { getAccessToken } from './utils';
 import './index.css';
 
@@ -119,3 +132,4 @@ function App() {
 }
 
 export default App;
+*/
