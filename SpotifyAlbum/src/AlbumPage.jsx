@@ -30,7 +30,7 @@ export default function AlbumPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white p-8">
 
-      <div className="grid grid-cols-3">
+      <div>
         <div className="new-rocker-regular ">hello everyone</div>
         {album && (
           <div className="flex items-end gap-8 mb-12 p-6 bg-gradient-to-b from-gray-800/40 to-gray-900/40 rounded-xl backdrop-blur-sm">
